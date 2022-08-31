@@ -8,7 +8,7 @@ class Parser
 public:
 	Parser(vector<Token>* _tokens);
 	~Parser();
-	Node* Run();
+	Node* Scan();
 
 private:
 	vector<Token>* tokens;

@@ -63,7 +63,7 @@ int main()
 		}
 		std::cout << endl;
 
-		parser.Run()->Generate(&CodeList);
+		parser.Scan()->Generate(&CodeList);
 		long ret = vm.Excute(&CodeList);
 
 		std::cout << "=" << to_string(ret) << endl;

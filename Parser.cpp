@@ -25,7 +25,7 @@ Parser::~Parser()
 	}
 }
 
-Node* Parser::Run()
+Node* Parser::Scan()
 {
 	return Expression();
 }
